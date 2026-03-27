@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:id="@+id/shopping"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="Sistema de Compras"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/cbArroz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginBottom="20dp"
+        android:text="Arroz 1 Kg (R$ 2,69)" />
+
+    <CheckBox
+        android:id="@+id/cbLeite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginBottom="20dp"
+        android:text="Leite longa vida (R$ 2,70) " />
+
+    <CheckBox
+        android:id="@+id/cbCarne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginBottom="20dp"
+        android:text="Carne Friboi (R$ 16,70) " />
+
+    <CheckBox
+        android:id="@+id/cbFeijão"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginBottom="20dp"
+        android:text="Feijão carioquinha 1 Kg (R$ 3,38)" />
+
+    <CheckBox
+        android:id="@+id/cbRefrigerante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_marginBottom="20dp"
+        android:text="Refrigerante coca-cola 2 litros (R$3,00)" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:text="Total da compra" />
+</LinearLayout>

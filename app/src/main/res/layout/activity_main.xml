@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#BCBCBC"
+    tools:context=".projectsMenu.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="Revisão P1"
+        android:textStyle="bold"
+        android:textColor="#950000"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="20dp"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/btnCompras"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#000000"
+        android:text="Compras"  />
+
+<!--    <Button-->
+<!--        android:id="@+id/btnMegaSena"-->
+<!--        android:layout_width="350dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:layout_marginBottom="50dp"-->
+<!--        android:backgroundTint="#000000"-->
+<!--        android:text="Mega Sena" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnImc"-->
+<!--        android:layout_width="350dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:layout_marginBottom="50dp"-->
+<!--        android:text="IMC"-->
+<!--        android:elevation="24dp"-->
+<!--        android:translationZ="10dp"-->
+<!--        android:backgroundTint="#000000" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnJoKenPo"-->
+<!--        android:layout_width="350dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:layout_marginBottom="50dp"-->
+<!--        android:backgroundTint="#000"-->
+<!--        android:elevation="24dp"-->
+<!--        android:translationZ="10dp"-->
+<!--        android:text="JoKenPô" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/btnQuestionario"-->
+<!--        android:layout_width="350dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:layout_marginBottom="50dp"-->
+<!--        android:backgroundTint="#000000"-->
+<!--        android:elevation="24dp"-->
+<!--        android:translationZ="10dp"-->
+<!--        android:text="Questionário Felicidade" />-->
+</LinearLayout>
